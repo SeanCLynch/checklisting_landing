@@ -35,15 +35,14 @@
 
 
 <div class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Checklisting</a>
-
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
-        </ul>
-    </div>
+	<div class="pure-menu pure-menu-horizontal pure-menu-fixed" style="background-color: #f6f6f6">
+	    <a href="#" class="pure-menu-heading pure-menu-link">Checklisting</a>
+	    <ul class="pure-menu-list">
+		<li class="pure-menu-item"><a href="#features" class="pure-menu-link">Features</a></li>
+		<li class="pure-menu-item"><a href="#tour" class="pure-menu-link">Tour</a></li>
+		<li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Sign Up</a></li>
+	    </ul>
+	</div>
 </div>
 
 <div class="splash-container">
@@ -59,14 +58,14 @@
 </div>
 
 <div class="content-wrapper">
-    <div class="content">
+    <div id="features" class="content">
         <h2 class="content-head is-center">Checklists should be simple.</h2>
 
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 
                 <h3 class="content-subhead">
-                    <i class="fa fa-rocket"></i>
+                    <i class="fa fa-check-square-o"></i>
                     Easily create checklists. Duh.
                 </h3>
                 <p>
@@ -75,7 +74,7 @@
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
-                    <i class="fa fa-mobile"></i>
+                    <i class="fa fa-bolt"></i>
                     Check against best practices.
                 </h3>
                 <p>
@@ -84,7 +83,7 @@
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
-                    <i class="fa fa-th-large"></i>
+                    <i class="fa fa-list-alt"></i>
                     Control your formatting.
                 </h3>
                 <p>
@@ -93,7 +92,7 @@
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
-                    <i class="fa fa-check-square-o"></i>
+                    <i class="fa fa-share-alt"></i>
                     Share and collaborate.
                 </h3>
                 <p>
@@ -103,7 +102,7 @@
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g">
+    <div id="tour" class="ribbon l-box-lrg pure-g">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
             <img width="300" alt="File Icons" class="pure-img-responsive" src="img/common/file-icons.png">
         </div>
@@ -120,22 +119,17 @@
         </div>
     </div>
 
-    <div class="content">
+    <div id="contact" class="content">
         <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                <form class="pure-form pure-form-stacked">
+                <form class="pure-form pure-form-stacked name="contact" method="POST" netlify>
                     <fieldset>
-
-                        <label for="name">Your Name</label>
-                        <input id="name" type="text" placeholder="Your Name">
-
-
-                        <label for="email">Your Email</label>
+                        <label for="email">Email</label>
                         <input id="email" type="email" placeholder="Your Email">
 
-                        <label for="password">Your Password</label>
+                        <label for="password">Password</label>
                         <input id="password" type="password" placeholder="Your Password">
 
                         <button type="submit" class="pure-button">Sign Up</button>
