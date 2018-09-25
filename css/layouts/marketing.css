@@ -145,7 +145,7 @@ a.pure-button-primary {
 
 .splash {
     /* absolute center .splash within .splash-container */
-    width: 80%;
+    width: 60%;
     height: 50%;
     margin: auto;
     position: absolute;
@@ -171,6 +171,10 @@ a.pure-button-primary {
     color: white;
     letter-spacing: 0.05em;
     opacity: 0.8;
+}
+
+h1.splash-head {
+    margin-top: 0px;
 }
 
 /*
@@ -257,7 +261,7 @@ a.pure-button-primary {
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
-        width: 50%;
+        width: 60%;
         height: 50%;
     }
 
