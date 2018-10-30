@@ -5,6 +5,9 @@ Layout made using [Pure CSS](http://purecss.io/).
 
 Hosted by [Netlify](http://netlify.com/).
 
+TODO: 
+* Add comparison to Wunderlist, Trello, etc.
+
 Colors:
 Meadow: 8bba94;
 
