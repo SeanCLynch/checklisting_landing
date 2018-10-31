@@ -104,7 +104,9 @@ a.pure-button-primary {
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
 }
-
+.pure-menu-link {
+    padding: 1em 0.5em 1em 0.5em;
+}
 .home-menu .pure-menu-heading {
     color: white;
     font-weight: 400;
@@ -232,12 +234,25 @@ h1.splash-head {
     width: 100%;
 }
 
+
+#main_menu {
+    background-color: #efefef;
+}
+
+#section_menu {
+    display: none;
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
  * of the mobile styles.
  */
 @media (min-width: 48em) {
+
+    #section_menu {
+        display: inline-block;
+    }
 
     /* We increase the body font size */
     body {
